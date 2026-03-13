@@ -10,22 +10,22 @@ export const socialLinkType = defineType({
     type: 'document',
     fields: [
         defineField({
-            name: 'twitter_url',
-            title: 'Twitter URL',
+            name: 'twitterUrl',
+            title: 'Twitter / X URL',
             type: 'url',
         }),
         defineField({
-            name: 'discord_url',
+            name: 'discordUrl',
             title: 'Discord URL',
             type: 'url',
         }),
         defineField({
-            name: 'telegram_url',
+            name: 'telegramUrl',
             title: 'Telegram URL',
             type: 'url',
         }),
         defineField({
-            name: 'superteam_global_url',
+            name: 'superteamGlobalUrl',
             title: 'Superteam Global URL',
             type: 'url',
         }),
