@@ -6,6 +6,7 @@ import { testimonialType } from './testimonial'
 import { eventType } from './event'
 import { statsType } from './stats'
 import { heroType } from './hero'
+import { socialLinkType } from './sociallink'
 
 /** All Sanity document types for Superteam Malaysia CMS */
 export const schemaTypes = [
@@ -17,4 +18,5 @@ export const schemaTypes = [
   faqItemType,
   testimonialType,
   eventType,
+  socialLinkType,
 ]
